@@ -43,6 +43,13 @@ def emo():  # put application's code here
 def emo1():  # put application's code here
     return render_template('emo1.html')
 
+@app.route('/xian')
+def xian():  # put application's code here
+    return render_template('xian.html')
+
+@app.route('/xian1')
+def xian1():  # put application's code here
+    return render_template('xian1.html')
 
 if __name__ == '__main__':
     app.run()
