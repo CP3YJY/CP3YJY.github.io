@@ -35,5 +35,14 @@ def list():  # put application's code here
 def list1():  # put application's code here
     return render_template('list1.html')
 
+@app.route('/emo')
+def emo():  # put application's code here
+    return render_template('emo.html')
+
+@app.route('/emo1')
+def emo1():  # put application's code here
+    return render_template('emo1.html')
+
+
 if __name__ == '__main__':
     app.run()
